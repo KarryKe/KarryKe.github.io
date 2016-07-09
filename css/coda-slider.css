@@ -1,0 +1,218 @@
+.out{
+	height:100px;
+	width:100%;
+	font-family:Georgia, serif;
+	color:#fff;
+	font-size:30px;
+	font-style:italic;
+	font-weight:bold;
+	line-height:100px;
+	padding-left:30px;
+}
+#slider {
+    position: relative;
+	width: 100%;
+}
+
+#header_wrapper {
+	width: 100%;
+	background: url(../images/templatmeo_header.jpg) no-repeat top center;
+}
+#header {
+	background: url(../images/templatmeo_header.jpg) no-repeat top center;
+	width: 980px;
+	height: 180px;
+	margin: 0 auto;
+	padding-top: 35px;
+	text-align: center;
+}
+#menu_wrapper {
+	width: 100%;
+	background: url(../images/templatemo_menu.jpg) no-repeat top center;
+}
+#menu {
+	background: url(../images/templatemo_menu.jpg) no-repeat top center;
+	width: 980px;
+	height: 103px;
+	margin: 0 auto;
+	padding-top: 4px;
+}
+#content_wrapper {
+	width: 100%;
+	background: url(../images/templatemo_content.jpg) no-repeat top center;
+}
+#content {
+	background: url(../images/templatemo_content.jpg) no-repeat top center;
+	width: 860px;
+	height: 428px;
+	padding: 0 60px;
+	margin: 0 auto
+}
+#home{
+	overflow-y: auto;
+}
+#home h1{
+	text-align:center;
+	height:50px;
+}
+.con1 h2{
+	width:100%;
+	line-height:30px;
+}
+.con1 p{
+	font-size:20px;
+	line-height:30px;	
+}
+.con1 p span{
+	padding-left:20px;
+}
+.col_550{
+	padding-left:30px;
+	width:400px;
+}
+.col_300{
+	width:350px;
+}
+#services p{
+	padding-left:50px;
+	font-size:24px;
+	line-height:35px;	
+}
+.con2{
+	margin-top:20px;
+	clear:both;
+}
+.con2 p{
+	padding-left:30px;
+	font-size:20px;
+	line-height:30px;
+}
+.con3{
+	margin-top:20px;
+	clear:both;
+}
+.con3 p{
+	padding-left:30px;
+	font-size:20px;
+	line-height:30px;
+}
+.con4{
+	
+}
+.con4 h2{
+	line-height:40px;	
+}
+.gallery_box{
+	color:#ddd;
+	padding-left:30px;
+}
+.gallery_box dl{
+	padding-left:30px;
+	width:100%;
+}
+.gallery_box dl dt{
+	line-height:35px;
+	float:left;
+	width:40%;
+}
+.gallery_box dl dt h3{
+	color:#A0A7AB;
+	font-size:16px;
+}
+.gallery_box dl dd{
+	float:left;
+	width:50%;
+}
+.gallery_box dl dd p{
+	font-size:16px;
+	color:#A0A7AB;
+	line-height:30px;
+}
+
+#footer_wrapper { 
+	width: 100%;
+	background: url(../images/templatemo_footer.jpg) no-repeat top center
+}
+#footer {
+	height: 92px;
+	width: 980px;
+	padding: 20px 0;
+	margin: 0 auto;
+	color: #999;
+	text-align: center;
+	background: url(../images/templatemo_footer.jpg) no-repeat top center	
+}
+
+#footer a {
+	color: #fff;
+}
+
+.scroll {
+    height: 415px;
+    width: 860px;
+    overflow: auto;
+ /*   overflow-x: hidden; */
+    position: relative;
+    clear: left;
+}
+
+.scrollContainer div.panel {
+    height: 380px;
+    width: 800px;
+	padding: 35px 30px 0 30px;
+}
+
+ul.navigation {
+	width: 670px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul.navigation li {
+    display: inline;
+    margin: 0px;
+	padding: 0;
+}
+
+ul.navigation a {
+	float: left;
+	display: block;
+	width: 104px;
+	height: 70px;
+	padding: 34px 15px 0;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+    text-decoration: none;
+	text-align: center;
+	background: url(../images/templatemo_menu_bg.png) no-repeat top center
+}
+
+ul.navigation a:hover, ul.navigation a.selected {
+	color: #FFFF00;
+}
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+	width: 0;
+	height: 0;
+}
+
+.scrollButtons.left {
+    left: -50px;
+}
+
+.scrollButtons.right {
+    right: -50px;
+}
+
+.hide {
+    display: none;
+}
